@@ -74,7 +74,7 @@ function load_header(){
 		$d=mysqli_fetch_assoc($r);
 		$txt1='
 			<div id="header">
-				<img src="images/header_logo.png">
+				<!--<img src="images/header_logo.png">-->
 				<div id="head_links">
 					<span class="head_user">'.$d['user_epwnymo'].'&nbsp;'.$d['user_onoma'].'-(<a href="logout.php">Έξοδος</a>)</span><br/>
 					<span id="apo_viv_links">
@@ -150,7 +150,7 @@ function load_viv_header(){
 		$d=mysqli_fetch_assoc($r);
 	$txt1=
 		'<div id="header">
-			<img src="images/header_logo.png">
+			<!--<img src="images/header_logo.png">-->
 			<div id="head_links">
 				<span class="head_user">'.$d['user_epwnymo'].'&nbsp;'.$d['user_onoma'].'-(<a href="logout.php">Έξοδος</a>)</span><br/>
 				<span id="apo_viv_links">
@@ -218,7 +218,7 @@ function load_general_header(){
 	$d=mysqli_fetch_assoc($r);
 	$txt='
 		<div id="header">
-			<img src="images/header_logo.png"/>
+			<!-- <img src="images/header_logo.png"/> -->
 			<div id="head_links">
 				<span class="head_user">'.$d['user_epwnymo'].'&nbsp;'.$d['user_onoma'].'-(<a href="logout.php">Έξοδος</a>)</span><br/>
 				<span id="apo_viv_links">
@@ -235,7 +235,7 @@ function load_general_header(){
 function load_bibliopoleio_header(){
 	$txt='
 		<div id="header">
-			<img src="images/header_logo.png"/>
+			<!--<img src="images/header_logo.png"/>-->
 			<div id="head_links">
 				<span class="head_user">admin-(<a href="logout.php">Έξοδος</a>)</span><br/>
 				<span id="apo_viv_links">
@@ -252,7 +252,7 @@ function load_bibliopoleio_header(){
 function load_bibliopoleioHeader(){
 	$txt='
 		<div id="header">
-			<img src="images/header_logo.png"/>
+			<!--<img src="images/header_logo.png"/>-->
 			<div id="head_links">
 				<span class="head_user">admin-(<a href="logout.php">Έξοδος</a>)</span><br/>
 				<span id="apo_viv_links">

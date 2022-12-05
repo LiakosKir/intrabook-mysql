@@ -45,7 +45,7 @@
 					echo $_SESSION['wrong'];
 					}
 				?>
-				<img src="images/delta_logo.png" width="100"/>
+				<!--<img src="images/delta_logo.png" width="100"/>-->
 				<form class="login_form" action="index.php" method="post">
 					<span class="login_head">Είσοδος Χρήστη</span>
 					<ul class="index_text">
