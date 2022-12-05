@@ -1,0 +1,3 @@
+<?php
+$handle=fopen("z:\\OCX_reg-2011-11.txt","r") or die("Error");
+?>
